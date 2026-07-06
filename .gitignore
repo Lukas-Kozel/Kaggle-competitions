@@ -1,0 +1,28 @@
+# 1. Data a datasety
+data/
+*.csv
+*.parquet
+*.tsv
+
+# 2. PyTorch a PyTorch Lightning logy/checkpointy
+checkpoints/
+lightning_logs/
+*.ckpt
+*.pth
+*.pt
+
+# 3. Kaggle submisse (vygenerované výsledky)
+submission_*.csv
+
+# 4. Jupyter Notebook cache
+.ipynb_checkpoints/
+
+# 5. Python cache
+__pycache__/
+*.py[cod]
+
+# 6. Prostředí a tajné proměnné (pro jistotu do budoucna)
+venv/
+env/
+.venv/
+.env
